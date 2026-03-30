@@ -14,7 +14,7 @@ We're hiring for a team that builds fast, thinks independently, and takes owners
 
 ## The Challenge
 
-Build the **buyer side of a vehicle auction platform**. We've included a dataset of 200 vehicles in [`data/vehicles.json`](data/vehicles.json), each listed by a selling dealership.
+Build the **buyer side of a vehicle auction platform as a web application**. We've included a dataset of 200 vehicles in [`data/vehicles.json`](data/vehicles.json), each listed by a selling dealership.
 
 A buyer should be able to browse inventory, inspect vehicle details, and place bids. That's the core experience. How you structure the product and how far you take it is up to you.
 
@@ -23,7 +23,7 @@ A buyer should be able to browse inventory, inspect vehicle details, and place b
 - Browse and search the vehicle inventory
 - Vehicle detail views with specs, condition, damage notes, selling dealership, and photos
 - A bidding experience where a buyer can place bids on vehicles
-- Responsive design that works on desktop and mobile
+- A responsive web experience that works well on desktop and mobile browsers
 - Clear instructions in your README for how to run the project locally
 
 ## Assumptions You Can Make
@@ -31,9 +31,10 @@ A buyer should be able to browse inventory, inspect vehicle details, and place b
 - This is a prototype, not a production launch.
 - Target roughly **4-8 hours** of work. If you spend more, that's your call, but we do not expect a fully built marketplace.
 - Use any framework, language, or stack.
+- If you want to align with our current web stack, React is preferred. Tailwind is a good fit, but neither is required.
 - You may use AI tools and coding assistants, and their use is encouraged. Be ready to explain how you used them, what decisions you made, and what parts of the implementation you would refine.
 - Authentication and user accounts are **not required**.
-- A backend is **optional**. In-memory state, local persistence, or a mocked API is fine if you explain your choice.
+- A frontend-only implementation is completely acceptable.
 - You do **not** need to build seller workflows, checkout, payments, or dealer admin tooling.
 - Auction timestamps in the dataset are synthetic scheduling data. If you want to show countdowns or "live" states, it's fine to normalize them relative to "now" in your prototype.
 - Make reasonable product decisions, document your assumptions, and optimize for clarity over surface area.
@@ -55,6 +56,7 @@ These are optional. Only do them if the basics are solid.
 - Sorting and filtering
 - Saved search or watchlist behavior
 - Bid history or activity states
+- Optional backend, persistence, or mocked/real API design
 - Extra polish around auction urgency, feedback, or accessibility
 - Tests, performance work, or thoughtful architectural choices
 - Any feature you think meaningfully improves buyer decision-making
