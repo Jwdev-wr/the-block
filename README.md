@@ -53,13 +53,9 @@ At a minimum, we want to see:
 
 These are optional. Only do them if the basics are solid.
 
-- Sorting and filtering
-- Saved search or watchlist behavior
-- Bid history or activity states
-- Optional backend, persistence, or mocked/real API design
-- Extra polish around auction urgency, feedback, or accessibility
-- Tests, performance work, or thoughtful architectural choices
-- Any feature you think meaningfully improves buyer decision-making
+- We care more about judgment than about any specific extra feature.
+- If you go beyond the basics, focus on improvements that make the buyer experience clearer, more useful, or more trustworthy.
+- That could show up in product decisions, UX details, implementation quality, or any other thoughtful extension that fits the timebox.
 
 ## What to Submit
 
