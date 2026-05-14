@@ -1,0 +1,36 @@
+import type { Vehicle } from '@/types/vehicle'
+
+export function makeVehicle(overrides: Partial<Vehicle> = {}): Vehicle {
+  return {
+    id: 'veh-1',
+    vin: 'ABC123',
+    year: 2023,
+    make: 'Ford',
+    model: 'Bronco',
+    trim: 'Big Bend',
+    body_style: 'SUV',
+    exterior_color: 'Burgundy',
+    interior_color: 'Beige',
+    engine: '2.7L EcoBoost V6',
+    transmission: 'automatic',
+    drivetrain: '4WD',
+    odometer_km: 47731,
+    fuel_type: 'gasoline',
+    condition_grade: 3.8,
+    condition_report: 'Average condition.',
+    damage_notes: [],
+    title_status: 'clean',
+    province: 'Ontario',
+    city: 'Toronto',
+    auction_start: '2026-04-05T14:00:00',
+    starting_bid: 14500,
+    reserve_price: 25000,
+    buy_now_price: null,
+    images: ['img1', 'img2'],
+    selling_dealership: 'King City Auto',
+    lot: 'A-0043',
+    current_bid: 22800,
+    bid_count: 16,
+    ...overrides,
+  }
+}
